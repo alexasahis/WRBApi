@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Serialno:</strong>
+  <%= @level.serialno %>
+</p>
+
+<p>
+  <strong>Siteid:</strong>
+  <%= @level.siteid %>
+</p>
+
+<p>
+  <strong>Datatime:</strong>
+  <%= @level.datatime %>
+</p>
+
+<p>
+  <strong>Depth:</strong>
+  <%= @level.depth %>
+</p>
+
+<p>
+  <strong>Quality:</strong>
+  <%= @level.quality %>
+</p>
+
+<%= link_to 'Edit', edit_level_path(@level) %> |
+<%= link_to 'Back', levels_path %>
